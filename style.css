@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 500;
+	background: radial-gradient(100% 225% at 0% 100%, #FF04F5 0%, #001AFF 100%), linear-gradient(270deg, #FB00A5 50%, #0400CB 100%), linear-gradient(300deg, #8DADA4 0%, #32DE81 100%), linear-gradient(7deg, #1DADFE 0%, #16009A 50%);
+	background-blend-mode: color-dodge, color-burn, color-burn, normal;
+}
+
+#backImage {
+}
+
+#text {
+	width: 20rem;
+	margin: 16vh auto 0 auto;
+	background-color: #c4cdff;
+	border: 3px ridge #7076cf;
+	padding: 2%;
+	text-align: center;
+}
+
+p#pp4 {
+	margin: 0;
+}
+
+input {
+	width: 30%;
+	font-size: 2rem;
+	font-family: 'Roboto Mono', monospace;
+	margin: 5px 33% 0 33%;
+	text-align: center;
+	font-weight: 400 !important;
+	padding-left: 10px;
+}
+
+button {
+	margin-top: 10px;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+
+@media (max-width: 1300px) {
+	#text {
+		width: 40vh;
+		max-width: 90vw;
+		margin: 10rem auto;
+	}
+
+	button, p {
+		font-size: 2.5rem;
+	}
+
+	input {
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 1300px) and (orientation: landscape) {
+	#text {
+		width: 90vh;
+		margin: 15vh auto;
+	}
+
+	button, p {
+		font-size: 1.7rem;
+	}
+
+	input {
+		font-size: 2rem;
+	}
+}
